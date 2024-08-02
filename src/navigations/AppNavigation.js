@@ -1,6 +1,8 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { colors } from '../constants/colors';
 import App from '../../App';
+import WelcomeScreen from '../screens/WelcomeScreen';
+import BottomNavigation from './BottomNavigation';
 
 const Stack = createNativeStackNavigator();
 
@@ -8,7 +10,7 @@ export default function AppNavigation() {
 
     return (
         <Stack.Navigator
-            initialRouteName="Home"
+            initialRouteName="Welcome"
             screenOptions={{
                 headerStyle: {
                     backgroundColor: colors.primary,
@@ -17,8 +19,16 @@ export default function AppNavigation() {
             }}
         >
             <Stack.Screen
-                name="Home"
-                component={App}
+                name="Welcome"
+                component={WelcomeScreen}
+                options={{
+                    title: 'Accueil',
+                    headerShown: false,
+                }}
+            />
+            <Stack.Screen
+                name="App"
+                component={BottomNavigation}
                 options={{
                     title: 'Accueil',
                     headerShown: false,
