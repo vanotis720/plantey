@@ -1,0 +1,72 @@
+export default plantsData = [
+    {
+        "id": 1,
+        "name": "Sansevieria",
+        "description": "La Sansevieria, également connue sous le nom de plante serpent, est une plante d'intérieur robuste.",
+        "price": 29.99,
+        "image": require("../assets/images/peace-lily-plant-terracotta-pot-home-decor-object.jpg"),
+        "size": "Moyenne",
+        "category": "Intérieur",
+        "height": "60 cm",
+        "humidity": "40%",
+        "rating": 4.7,
+        "reviews": 153,
+        "delivery_time": "10-15 jours"
+    },
+    {
+        "id": 2,
+        "name": "Monstera",
+        "description": "La Monstera est une plante tropicale connue pour ses grandes feuilles fendues.",
+        "price": 49.99,
+        "image": require("../assets/images/fiddle-leaf-fig-plant-pot.jpg"),
+        "size": "Grande",
+        "category": "Intérieur",
+        "height": "90 cm",
+        "humidity": "60%",
+        "rating": 4.8,
+        "reviews": 230,
+        "delivery_time": "10-15 jours"
+    },
+    {
+        "id": 3,
+        "name": "Ageratum",
+        "description": "L'Ageratum est un genre de 40 à 60 annuelles et vivaces tropicales et subtropicales.",
+        "price": 39.99,
+        "image": require("../assets/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg"),
+        "size": "Moyenne",
+        "category": "Extérieur",
+        "height": "32 cm",
+        "humidity": "82%",
+        "rating": 4.8,
+        "reviews": 268,
+        "delivery_time": "10-15 jours"
+    },
+    {
+        "id": 4,
+        "name": "Ficus lyrata",
+        "description": "Le Ficus lyrata est une plante d'intérieur populaire avec de grandes feuilles en forme de violon.",
+        "price": 59.99,
+        "image": require("../assets/images/galina-n-miziNqvJx5M-unsplash.jpg"),
+        "size": "Grande",
+        "category": "Intérieur",
+        "height": "120 cm",
+        "humidity": "50%",
+        "rating": 4.6,
+        "reviews": 192,
+        "delivery_time": "10-15 jours"
+    },
+    {
+        "id": 5,
+        "name": "Orchidée",
+        "description": "Les orchidées sont une famille diversifiée et répandue de plantes à fleurs avec des fleurs souvent colorées et parfumées.",
+        "price": 19.99,
+        "image": require("../assets/images/zanzibar-gem-plant-pot.jpg"),
+        "size": "Petite",
+        "category": "Intérieur",
+        "height": "45 cm",
+        "humidity": "70%",
+        "rating": 4.5,
+        "reviews": 80,
+        "delivery_time": "10-15 jours"
+    }
+]
