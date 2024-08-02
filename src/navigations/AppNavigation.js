@@ -1,6 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { colors } from '../constants/colors';
-import App from '../../App';
 import WelcomeScreen from '../screens/WelcomeScreen';
 import BottomNavigation from './BottomNavigation';
 
